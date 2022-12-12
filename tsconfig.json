@@ -1,0 +1,12 @@
+{
+  "references": [
+    {
+      "path": "./packages/backend"
+    }
+  ],
+  // needed to avoid trying to compile other .ts files in this repo
+  // and/or try to compile files included in the above references, only with incorrect settings
+  "files": [],
+  "include": [],
+  "exclude": []
+}
